@@ -3165,3 +3165,6 @@ span.OwnerNameIcon {
 span.dev_logo svg {
     height: 35px!important;
 }
+.wide_column_right .narrow_column_wrap {
+    float: left!important;
+}
