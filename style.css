@@ -3125,10 +3125,7 @@ body.redesign_web .feed_filter_icon, body.redesign_web .feed_lists_icon_content 
 }
 div#page_body {
     width: 795px!important;
-}
-#page_body {
     font-size: 13px;
-    width: 631px;
 }
 :root{
     --layout-width: 960px!important;
