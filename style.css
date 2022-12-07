@@ -30,7 +30,7 @@ div.ReactionsPreview__items {
 	--post-bottom-action-background-color: transparent !important;
 }
 
-[dir=ltr] .PostButtonReactions--post .PostButtonReactions__title--textual {
+[dir=ltr] .PostButtonReactions--post .PostButtonReactions__title--textual,span.dev_logo path {
 	display: none;
 }
 
@@ -313,7 +313,7 @@ div.like_cont.PostBottomActionLikeBtns {
 	margin-top: 4px !important;
 }
 
-[dir] a.TopHomeLink svg {
+[dir] a.TopHomeLink svg,span.dev_logo svg {
 	background: url(https://archive.md/HaSgx/5f91644d7587d43caefbf5e3915e65fc61ece117.svg) no-repeat;
 	background-repeat: no-repeat;
 	background-position: center;
