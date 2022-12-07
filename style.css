@@ -1,3 +1,7 @@
+:root{
+    --radius:3px;
+}
+
 [dir] body.new_header_design #page_header_cont {
 	background-color: var(--page_header);
 	border-bottom: 1px solid var(--page_header_separator);
