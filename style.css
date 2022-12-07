@@ -3162,3 +3162,6 @@ span.OwnerNameIcon {
 .SitpostingEntrypoint {
     display: none;
 }
+span.dev_logo svg {
+    height: 35px!important;
+}
