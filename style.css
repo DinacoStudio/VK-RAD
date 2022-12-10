@@ -3169,6 +3169,16 @@ span.dev_logo svg {
     float: left!important;
 }
 
+
+
+
+
+
+
+
+
+/*ТЕСТОВЫЕ*/
+
 .PageActionCell{
     margin:unset;
 }
@@ -3209,4 +3219,22 @@ span.dev_logo svg {
 }
 .profile_label_less, .info_shown .profile_label_more {
     display: none;
+}
+[dir] .profile_info_row {
+    padding-top: 5px;
+}
+#profile_groups_link {
+    display: block;
+    line-height: 1.154;
+}
+[dir=ltr] #profile_groups_link {
+    padding: 7px 0 8px 165px;
+    margin-top: 7px;
+}
+#profile_groups_link:hover {
+    text-decoration: none;
+}
+#profile_groups_link:hover {
+    text-decoration: none;
+    background: rgba(174, 183, 194, 0.12);
 }
