@@ -3179,6 +3179,8 @@ span.dev_logo svg {
 
 /*ТЕСТОВЫЕ*/
 
+
+
 .PageActionCell{
     margin:unset;
 }
@@ -3237,4 +3239,48 @@ span.dev_logo svg {
 #profile_groups_link:hover {
     text-decoration: none;
     background: rgba(174, 183, 194, 0.12);
+}
+[dir=ltr] .profile_gifts_cont .profile_gift_img {
+    margin-right: 4px;
+}
+.profile_gifts_cont {
+    position: relative;
+    display: block;
+    height: 64px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.profile_warning_img {
+    width: 21px;
+    height: 21px;
+}
+[dir=ltr] .profile_warning_img.contacts {
+    background-position: 0 -75px;
+}
+[dir=ltr] .profile_warning_img {
+    background: url(/images/icons/add_info_icons.png) no-repeat 0 0;
+    float: left;
+}
+.profile_warning_label {
+    overflow: hidden;
+    display: table-cell;
+    vertical-align: middle;
+    height: 25px;
+}
+[dir] .profile_warning_label {
+    padding: 8px 0;
+}
+[dir] .profile_warning_hide_wrap {
+    padding: 6px;
+    margin: 10px 6px;
+}
+[dir=ltr] .profile_warning_hide_wrap {
+    float: right;
+}
+.profile_warning_hide {
+    width: 9px;
+    height: 9px;
+}
+[dir=ltr] .profile_warning_hide {
+    background: url(/images/attach_icons.png?4) no-repeat 0 0;
 }
