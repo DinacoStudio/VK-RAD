@@ -3180,13 +3180,6 @@ span.dev_logo svg {
 /*ТЕСТОВЫЕ*/
 
 
-
-
-
-
-
-
-
 [dir=ltr] .PageActionCell:has(path[d="M10.5 10.4a.9.9 0 0 1 .9-.9h1.2a.9.9 0 1 1 0 1.8h-1.2a.9.9 0 0 1-.9-.9Zm0 5a.9.9 0 0 1 .9-.9h1.2a.9.9 0 1 1 0 1.8h-1.2a.9.9 0 0 1-.9-.9Z"])  {
     margin: unset;
 }
@@ -3322,4 +3315,21 @@ span.dev_logo svg {
 }
 [dir=ltr] .PageActionsClosedProfile__content {
     margin-left: 10px;
+}
+
+
+
+.profile_more_info_link {
+    display: block;
+    height: 34px;
+    line-height: 32px;
+}
+[dir] .profile_more_info_link:hover {
+    background-color: var(--background_hover);
+}
+.profile_more_info_link:hover {
+    text-decoration: none;
+}
+[dir] .wall_module .wall_posts.all>.all~.all, [dir] .wall_module .wall_posts.all>.post:not(.unshown)~.post.unshown+.post:not(.unshown), [dir] .wall_module .wall_posts.all>.all~.all_ads_promoted_post, [dir] .wall_module .wall_posts.own>.own~.own, [dir] .wall_module .wall_posts.own>.post:not(.unshown)~.post.unshown+.post:not(.unshown), [dir] .wall_module .wall_posts.own>.own~.own_ads_promoted_post, [dir] .wall_module .wall_posts.postponed>.postponed~.postponed, [dir] .wall_module .wall_posts.suggested>.suggest~.suggest, [dir] .wall_module .wall_posts_search>.post~.post{
+    margin-top:15px 15px;
 }
