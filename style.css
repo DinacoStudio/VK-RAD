@@ -3185,6 +3185,8 @@ span.dev_logo svg {
 
 
 
+
+
 [dir=ltr] .PageActionCell:has(path[d="M10.5 10.4a.9.9 0 0 1 .9-.9h1.2a.9.9 0 1 1 0 1.8h-1.2a.9.9 0 0 1-.9-.9Zm0 5a.9.9 0 0 1 .9-.9h1.2a.9.9 0 1 1 0 1.8h-1.2a.9.9 0 0 1-.9-.9Z"])  {
     margin: unset;
 }
@@ -3304,4 +3306,20 @@ span.dev_logo svg {
     padding: 0;
     margin-top: 5px;
     text-align: center;
+}
+[dir] .PageActionsClosedProfile {
+    margin-top: 6px;
+    padding-top: 12px;
+    padding-bottom: 6px;
+    border-top: 1px solid var(--separator_alternate);
+}
+.PageActionsClosedProfile {
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 13px;
+    line-height: 18px;
+    color: var(--text_primary);
+}
+[dir=ltr] .PageActionsClosedProfile__content {
+    margin-left: 10px;
 }
