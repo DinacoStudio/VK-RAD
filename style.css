@@ -3284,3 +3284,6 @@ span.dev_logo svg {
 [dir=ltr] .profile_warning_hide {
     background: url(/images/attach_icons.png?4) no-repeat 0 0;
 }
+[dir] .profile_warning_img {
+    margin: 10px;
+}
