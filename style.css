@@ -3183,8 +3183,10 @@ span.dev_logo svg {
 
 
 
-.PageActionCell{
-    margin:unset;
+
+
+[dir=ltr] .PageActionCell:has(path[d="M10.5 10.4a.9.9 0 0 1 .9-.9h1.2a.9.9 0 1 1 0 1.8h-1.2a.9.9 0 0 1-.9-.9Zm0 5a.9.9 0 0 1 .9-.9h1.2a.9.9 0 1 1 0 1.8h-1.2a.9.9 0 0 1-.9-.9Z"])  {
+    margin: unset;
 }
 [dir] .profile_info_row .label {
     margin: 0;
