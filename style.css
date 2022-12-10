@@ -3181,6 +3181,8 @@ span.dev_logo svg {
 
 
 
+
+
 .PageActionCell{
     margin:unset;
 }
@@ -3286,4 +3288,18 @@ span.dev_logo svg {
 }
 [dir] .profile_warning_img {
     margin: 10px;
+}
+
+
+
+[dir=ltr] div.profile_online {
+    float: right;
+    padding-left: 10px;
+}
+[dir] div.profile_online {
+    border-bottom: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 5px;
+    text-align: center;
 }
