@@ -3182,6 +3182,7 @@ span.dev_logo svg {
 
 
 
+
 [dir=ltr] .PageActionCell:has(path[d="M10.5 10.4a.9.9 0 0 1 .9-.9h1.2a.9.9 0 1 1 0 1.8h-1.2a.9.9 0 0 1-.9-.9Zm0 5a.9.9 0 0 1 .9-.9h1.2a.9.9 0 1 1 0 1.8h-1.2a.9.9 0 0 1-.9-.9Z"])  {
     margin: unset;
 }
@@ -3288,9 +3289,6 @@ span.dev_logo svg {
 [dir] .profile_warning_img {
     margin: 10px;
 }
-
-
-
 [dir=ltr] div.profile_online {
     float: right;
     padding-left: 10px;
@@ -3304,4 +3302,15 @@ span.dev_logo svg {
 }
 .DropdownActionSheetContent{
     display:none;
+}
+[dir] .profile_info_short {
+    padding-top: 10px;
+}
+div.profile_online {
+    font-weight: 400;
+    -webkit-font-smoothing: subpixel-antialiased;
+    -moz-osx-font-smoothing: auto;
+    font-size: 12.5px;
+    line-height: 18px;
+    color: #818c99;
 }
