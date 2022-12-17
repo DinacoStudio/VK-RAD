@@ -3317,3 +3317,6 @@ div.profile_online {
 section#recent {
     margin: 0;
 }
+.ui_search {
+    border-bottom: 1px solid var(--separator_common)!important;
+}
