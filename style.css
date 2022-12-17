@@ -3314,3 +3314,6 @@ div.profile_online {
     line-height: 18px;
     color: #818c99;
 }
+section#recent {
+    margin: 0;
+}
