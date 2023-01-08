@@ -3492,3 +3492,9 @@ li._audio_section_tab._audio_section_tab__following_updates._audio_section_tab__
 [dir] .wall_module .wall_posts.all>.all~.all, [dir] .wall_module .wall_posts.all>.post:not(.unshown)~.post.unshown+.post:not(.unshown), [dir] .wall_module .wall_posts.all>.all~.all_ads_promoted_post, [dir] .wall_module .wall_posts.own>.own~.own, [dir] .wall_module .wall_posts.own>.post:not(.unshown)~.post.unshown+.post:not(.unshown), [dir] .wall_module .wall_posts.own>.own~.own_ads_promoted_post, [dir] .wall_module .wall_posts.postponed>.postponed~.postponed, [dir] .wall_module .wall_posts.suggested>.suggest~.suggest, [dir] .wall_module .wall_posts_search>.post~.post{
     margin-top:15px 15px;
 }
+._audio_page_player_wrap.audio_page_player_wrap.page_block {
+    width: 795px!important;
+}
+.audio_page_player2._audio_page_player._audio_row.clear_fix {
+    width: auto!important;
+}
