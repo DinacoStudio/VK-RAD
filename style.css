@@ -3320,3 +3320,131 @@ section#recent {
 .ui_search {
     border-bottom: 1px solid var(--separator_common)!important;
 }
+
+
+
+h2.page_block_h2, h1.page_block_h2 {
+    font-size: inherit;
+    font-weight: inherit;
+    color: inherit;
+}
+[dir] .ui_tab_sel, [dir] .ui_tabs .ui_tab_sel, [dir] .ui_tabs_box .ui_tab_sel, [dir] .ui_tab_sel:hover, [dir] .ui_tabs .ui_tab_sel:hover, [dir] .ui_tabs_box .ui_tab_sel:hover {
+    border-bottom: 2px solid var(--accent);
+    padding-bottom: 13px;
+}
+[dir=ltr] .ui_tabs .ui_tab, [dir=ltr] .ui_tab {
+    float: left;
+}
+[dir] .ui_tabs .ui_tab, [dir] .ui_tab {
+    cursor: pointer;
+}
+.ui_tab_sel, .ui_tabs .ui_tab_sel, .ui_tabs_box .ui_tab_sel {
+    color: var(--text_primary);
+}
+.ui_tabs .ui_tab, .ui_tab {
+    color: var(--text_subhead);
+    transition: color .2s ease;
+}
+[dir] .ui_tab, [dir] .ui_tab_plain {
+    padding: 16px 6px 15px;
+    margin: 0 4px -1px;
+}
+.ui_tab, .ui_tab_plain {
+    display: block;
+    outline: 0;
+}
+[dir] .ui_tabs {
+    border-bottom: 1px solid var(--separator_common);
+    padding: 0 10px;
+    margin: 0;
+}
+.ui_tabs {
+    position: relative;
+    list-style: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+[dir] .ui_tab, [dir] .ui_tab_plain {
+    padding: 16px 6px 15px;
+    margin: 0 4px -1px;
+}
+.ui_tabs_progress {
+    display: none;
+    width: 16px;
+    height: 15px;
+    position: relative;
+}
+[dir] .ui_tab_search {
+    padding: 17px 6px 14px;
+}
+[dir] .ui_tab_search:after {
+    background: url(/images/search_icon.png) no-repeat;
+}
+.ui_tab_search:after {
+    content: '';
+    display: inline;
+    transition: opacity .15s ease;
+    opacity: .75;
+}
+a.ui_tab_plain:hover{
+    text-decoration:none;
+}
+.page_list_module .group_name a:hover, .page_list_module .people_name a:hover{
+    text-decoration:none;
+}
+[dir=ltr] .ui_thumb_x_button, [dir=ltr] .ui_thumb_pe_button {
+    right: 0;
+    border-radius: 0 0 0 2px;
+}
+.photos_module .ui_thumb_x_button {
+    opacity: 0;
+    transition: opacity 100ms linear;
+}
+.photos_module a:hover .ui_thumb_x_button {
+    opacity: 1;
+}
+.ui_tabs_container>:not(:last-child) {
+    margin-right: 0;
+}
+[dir] .ui_tab, [dir] .ui_tab_plain {
+    padding: 16px 6px 15px;
+    margin: 0 4px -1px;
+}
+.wall_module .ui_tabs {
+    z-index: 3;
+    scroll-margin: calc(var(--header-height) + var(--page-block-offset, 15px));
+}
+[dir] .ui_tab_search {
+    padding: 17px 6px 14px;
+}
+[dir=ltr] .ui_tab_search:after {
+    padding: 5px 14px 5px 0;
+    background-position: right center;
+}
+[dir=ltr] .ui_tab_plain {
+    float: right;
+}
+a.ui_tab.ui_tab_sel span {
+    color: var(--text_primary);
+}
+.ui_tabs .ui_tab:hover, .ui_tab:hover {
+    text-decoration: none;
+}
+.ui_tabs_container{
+    padding: 11px 17px;
+}
+.audio_search_wrapper.audio_search_wrapper_new {
+    margin-top: 17px;
+}
+li._audio_section_tab._audio_section_tab__following_updates._audio_section_tab__updates+.ui_tabs_right_section {
+    float: right;
+    padding-top: 10px;
+}
+.ui_tabs_right_section a.FlatButton.FlatButton--primary.FlatButton--size-s {
+    margin-top: 5px;
+}
+.audio_page_layout .audio_search_wrapper.audio_search_wrapper_new {
+    padding-top: 0!important;
+}
