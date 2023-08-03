@@ -1,0 +1,52 @@
+{
+    "payload": [],
+    "ver": "782",
+    "user": {
+        "id": 7056973,
+        "type": "Developer",
+        "username": "DinacoStudio",
+        "name": "DinacoStudio",
+        "display_name": "DinacoStudio",
+        "web_site": "",
+        "url": "\/@DinacoStudio",
+        "slug": "dinacostudio",
+        "img_avatar": "https:\/\/m.gjcdn.net\/user-avatar\/200\/7056973-ttu2jmtz-v4.webp",
+        "shouts_enabled": true,
+        "friend_requests_enabled": true,
+        "is_spawnday": false,
+        "status": 1,
+        "permission_level": 0,
+        "is_verified": null,
+        "is_partner": null,
+        "is_creator": false,
+        "created_on": 1652418693000,
+        "theme": null,
+        "follower_count": 57,
+        "following_count": 31,
+        "avatar_frame": {
+            "id": 38,
+            "image_url": "https:\/\/i.gjcdn.net\/public-data\/media\/avatar-frame\/0\/38\/38\/kikkerstein-frame-uncommon-uxg2mraa.png"
+        },
+        "is_following": false,
+        "follows_you": false,
+        "is_blocked": false,
+        "blocked_you": false,
+        "can_join_communities": true,
+        "can_create_communities": true,
+        "level": 3,
+        "experience": 395,
+        "experience_next": 134,
+        "level_next_percentage": 44,
+        "timeout": {
+            "id": 5405,
+            "expires_on": 1691066090109,
+            "reason": null,
+            "reason_template": "Falsely claiming to have created content you are uploading or doing so without the permission of the original creator is not allowed on Game Jolt.",
+            "resource_content": null
+        }
+    },
+    "c": {
+        "eea": false,
+        "ads": true
+    }
+}
